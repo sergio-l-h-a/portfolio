@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Francisco Sergio</title>
+    <!-- Ícones (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- Navegação -->
+    <header>
+        <div class="logo">Francisco Dev</div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Hero (Perfil) -->
+    <section class="hero" id="about">
+        <!-- SUBSTITUA O SRC PELA SUA FOTO REAL -->
+        <img src="imagens/perfil-foto.png" alt="Foto de Francisco Sergio" class="profile-img">
+        
+        <h1>Olá, sou o <span style="color:var(--primary-color)">Francisco Sergio</span></h1>
+        <h2>Desenvolvedor Web Junior</h2>
+        <p>
+            Apaixonado por tecnologia e em constante aprendizado. 
+            Focado em construir soluções web eficientes utilizando JavaScript e suas ecossistemas.
+        </p>
+        <a href="#contact" class="btn">Entre em Contato</a>
+    </section>
+
+    <!-- Seção Skills -->
+    <section class="section" id="skills">
+        <h2 class="section-title">Minhas <span>Habilidades</span></h2>
+        <div class="skills-container">
+            <div class="skill-tag"><i class="fab fa-js"></i> JavaScript <span class="skill-level">(Intermediário)</span></div>
+            <div class="skill-tag"><i class="fab fa-react"></i> React <span class="skill-level">(Básico)</span></div>
+            <div class="skill-tag"><i class="fab fa-node"></i> Node.js <span class="skill-level">(Básico)</span></div>
+            <div class="skill-tag"><i class="fas fa-database"></i> MySQL <span class="skill-level">(Básico)</span></div>
+            <div class="skill-tag"><i class="fab fa-php"></i> PHP <span class="skill-level">(Básico)</span></div>
+            <div class="skill-tag"><i class="fab fa-python"></i> Python <span class="skill-level">(Básico)</span></div>
+            <div class="skill-tag"><i class="fas fa-mongodb"></i> MongoDB <span class="skill-level">(Básico)</span></div>
+        </div>
+    </section>
+
+    <!-- Seção Certificação -->
+
+    <section class="section" style="background-color: #162032;">
+
+        <h2 class="section-title">Certificações</h2>
+       <div id="certificado">
+
+           <div class="cert-card">
+               <div class="cert-icon"><i class="fab fa-github"></i></div>
+               <div>
+                   <h3>GitHub Actions & Repositories</h3>
+                   <p style="color: var(--text-muted);">Plataforma Dio.me (10 Horas)</p>
+               </div>
+           </div>
+
+	   <div class="cert-card">
+               <div class="cert-icon"><i class="fab fa-github"></i></div>
+               <div>
+                   <h3>GitHub Actions & Repositories</h3>
+                   <p style="color: var(--text-muted);">Plataforma Dio.me (10 Horas)</p>
+               </div>
+           </div>
+
+	   <div class="cert-card">
+               <div class="cert-icon"><i class="fab fa-github"></i></div>
+               <div>
+                   <h3>GitHub Actions & Repositories</h3>
+                   <p style="color: var(--text-muted);">Plataforma Dio.me (10 Horas)</p>
+               </div>
+           </div>
+
+	</div>
+    </section>
+
+    <!-- Seção Projetos (Galeria) -->
+    <section class="section" id="projects">
+        <h2 class="section-title">Meus <span>Projetos</span></h2>
+        
+        <div class="projects-grid">
+            
+            <!-- Projeto 1 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <!-- Coloque a imagem do seu projeto aqui -->
+		    <img src="imagens/controle-de-gastos.png" alt="Controle de Dispesas" class="zoom-img"/>
+                   <!-- <i class="fas fa-laptop-code fa-3x"></i> -->
+                </div>
+                <div class="project-info">
+                    <h3>Controle de Dispesas JS</h3>
+                    <p>Uma controle de dispesas funcional desenvolvida com JavaScript puro, focada em manipulação do DOM e lógica de eventos.</p>
+                    
+                    <!-- Ícones das tecnologias usadas -->
+                    <div class="tech-stack">
+                        <i class="fab fa-js" title="JavaScript"></i>
+                        <i class="fab fa-html5" title="HTML5"></i>
+                        <i class="fab fa-css3-alt" title="CSS3"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="project-card">
+                <div class="project-img">
+		    <img src="imagens/layout estilizado.png" alt="Sistema de Cadastro" class="zoom-img" />
+                </div>
+                <div class="project-info">
+                    <h3>API REST Node.js e Express, MySQL</h3>
+                    <p>Projeto full stack com API REST em Node.js e Express, consumida por um frontend simples para realizar operações de cadastro, listagem, edição e exclusão de usuários, com armazenamento em MySQL..</p>
+                    
+                    <div class="tech-stack">
+                        <i class="fab fa-node" title="Node.js"></i>
+                        <i class="fas fa-database" title="MySQL"></i>
+                        <i class="fab fa-git-alt" title="Git"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-cloud fa-3x"></i>
+                </div>
+                <div class="project-info">
+                    <h3>App de Clima (React) em breve</h3>
+                    <p>Aplicativo de demonstração consumindo uma API pública de clima, utilizando React básico.</p>
+                    
+                    <div class="tech-stack">
+                        <i class="fab fa-react" title="React"></i>
+                        <i class="fas fa-cloud" title="API"></i>
+                    </div>
+                </div>
+            </div>
+
+	    <!-- Projeto WordPress -->
+
+	    <div class="project-card" data-gallery="wp">
+                <div class="project-img">
+                    <img src="imagens/banner.png" alt="Site WordPress Clínica" class="zoom-img" />
+                </div>
+                <div class="project-info">
+                    <h3>Site WordPress – Clínica Médica</h3>
+                    <p>Website institucional desenvolvido em WordPress, com páginas divididas em seções modernas e responsivas.</p>
+
+                    <div class="tech-stack">
+                       <i class="fab fa-wordpress" title="WordPress"></i>
+                       <i class="fab fa-php" title="PHP"></i>
+                       <i class="fab fa-css3-alt" title="CSS3"></i>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="social-links">
+            <a href="https://github.com/sergio-l-h-a"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p>&copy; 2023 Francisco Sergio. Todos os direitos reservados.</p>
+    </footer>
+	
+
+    <div class="lightbox" id="lightbox">
+      <span class="close-btn" id="closeLightbox">&times;</span>
+
+      <span class="arrow left" id="prevImg">&#10094;</span>
+      <img id="lightboxImg" class="lightbox-img">
+      <span class="arrow right" id="nextImg">&#10095;</span>
+
+      <div class="thumbnail-container" id="thumbnailContainer"></div>
+
+    </div>
+
+</body>
+    <script src="js/script.js"></script>
+</html>

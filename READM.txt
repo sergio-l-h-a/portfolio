@@ -1,0 +1,14 @@
+O que você precisa fazer agora:
+
+Sua Foto: Procure no código a linha <img src="https://via.placeholder.com/180" ... class="profile-img">. 
+Troque o link https://via.placeholder.com/180 pelo caminho da sua foto (ex: img/minha-foto.jpg).
+
+Seus Projetos: Na seção "Projetos", eu coloquei ícones genéricos. 
+
+Você deve tirar prints dos seus projetos, salvar como imagens e 
+substituir onde está escrito <!-- Coloque a imagem do seu projeto aqui -->.
+
+Links: No rodapé (Footer), coloque os links reais do seu GitHub e LinkedIn nos href="#".
+
+Este layout destaca que você é Intermediário em JS (colocando em destaque) e mostra s
+uas habilidades básicas de forma organizada, além de valorizar a certificação da Dio.me. Boa sorte, Francisco!
